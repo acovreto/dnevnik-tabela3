@@ -11,7 +11,7 @@
   margin: 50px auto;
 
   border-collapse: collapse;
-  width: 60%;
+  width: 70%;
 }
 #table3,
 #table3 tr,
@@ -20,6 +20,10 @@
 }
 #table3 tr {
   width: 100%;
+  height: 8vh;
+}
+#table3 th {
+  min-height: 30px;
 }
 #table3 tr:first-child th:nth-child(1) {
   width: 40%;
@@ -40,6 +44,10 @@
 #table3 tr:nth-child(4) th {
   text-align: left;
   padding-left: 10px;
+}
+#table3 tr:nth-child(4) {
+  min-height: 30vh;
+  vertical-align: text-top;
 }
 #table3 tr:nth-child(7) th:nth-child(1) {
   width: 10%;
@@ -68,4 +76,7 @@
 #table3 tr:last-child th:nth-child(4) {
   width: 30%;
   height: 35vh;
+}
+a.link {
+  color: red;
 }
